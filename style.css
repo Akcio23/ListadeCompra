@@ -1,0 +1,95 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #333;
+}
+
+/* Título e formulário */
+h1 {
+    color: #5a67d8;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#novoItem {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#adicionarBtn {
+    background-color: #5a67d8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#adicionarBtn:hover {
+    background-color: #4c51bf;
+}
+
+/* Lista de compras */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+
+li.comprado {
+    background-color: #c6f6d5; 
+    text-decoration: line-through;
+}
+
+
+button {
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #c53030;
+}
+
+/* Botão "Comprar" */
+button:nth-child(1) {
+    background-color: #38a169;
+}
+
+button:nth-child(1):hover {
+    background-color: #2f855a;
+}
